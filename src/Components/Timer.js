@@ -13,7 +13,7 @@ export default function Timer() {
     const [carousel,setCarousel]= useState("block");
     const [back,setBack] = useState("none");
 
-    const deadline = new Date("oct 29, 2022 00:00:00").getTime();
+    const deadline = new Date("oct 29, 2023 00:00:00").getTime();
 
     const calcTime= ()=>{
         let now = new Date().getTime();
