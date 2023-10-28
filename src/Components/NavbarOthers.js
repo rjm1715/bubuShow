@@ -14,16 +14,16 @@ export default function NavbarOthers() {
               <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Stories">Stories</a>
+              <a className="nav-link" href="https://candid-seahorse-6d440f.netlify.app/Stories">Stories</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Quiz">Quiz</a>
+              <a className="nav-link" href="https://candid-seahorse-6d440f.netlify.app/Quiz">Quiz</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/FAQs">FAQ's</a>
+              <a className="nav-link" href="https://candid-seahorse-6d440f.netlify.app/FAQs">FAQ's</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Timer">Timer</a>
+              <a className="nav-link" href="https://candid-seahorse-6d440f.netlify.app/Timer">Timer</a>
             </li>
           </ul>
         </div>
