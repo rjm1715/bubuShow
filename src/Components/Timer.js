@@ -69,6 +69,7 @@ export default function Timer() {
       </div>
       <div className='body' style={{display: `${displayEnd}`}}>
         <p>Happy 4th my sweetums! Will always wish to have you by my side, like you have been in the last 4 years and made me as happy as beautiful you are!! Love you to the moon and back!</p>
+        <p>Love you so much popu!</p>
 
         <img src={img}  style={{height:"80vh", width:"30vw", borderRadius:"10px", border: "2px solid grey"}} alt="Love!" />
       </div>
@@ -79,6 +80,7 @@ export default function Timer() {
         <div style={{justifyContent:"left"}}>
         <p >PS: Have made the correction in the 6th card. (Do tell me the changes I had to make!) <br /> For background of this video either you can try and find it on this page or can ask me to share it with you directly (the easier one). Lets see, which one will you choose!
         </p>
+        <p>I wish I stop relying on these jugadu gifts as early as possible!</p>
         </div>
       </div>
       <div className='body' style={{display:`${displayEnd}`}}>
