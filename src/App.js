@@ -43,39 +43,39 @@ function App() {
       <Router>
         <Routes>
 
-          <Route exact path="/Stories"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories"
             element={<Cards />} />
 
           <Route exact path="/"
             element={<Home />} />
 
-          <Route exact path="/Quiz"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Quiz"
             element={<Quiz />} />
 
-          <Route exact path="/FAQs"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/FAQs"
             element={<FAQ />} />
 
-          <Route path="/Timer"
+          <Route path="https://candid-seahorse-6d440f.netlify.app/Timer"
             element={<Timer />}
           ></Route>
 
-          <Route exact path="/Stories/story1"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story1"
             element={<Story story={story1} headline={headline1} />} />
-          <Route exact path="/Stories/story2"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story2"
             element={<Story story={story2} headline={headline2} />} />
-          <Route exact path="/Stories/story3"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story3"
             element={<Story story={story3} headline={headline3} />} />
-          <Route exact path="/Stories/story4"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story4"
             element={<Story story={story4} headline={headline4} />} />
-          <Route exact path="/Stories/story5"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story5"
             element={<Story story={story5} headline={headline5} />} />
-          <Route exact path="/Stories/story6"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story6"
             element={<Story story={story6} headline={headline6} />} />
-          <Route exact path="/Stories/story7"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story7"
             element={<Story story={story7} headline={headline7} />} />
-          <Route exact path="/Stories/story8"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story8"
             element={<Story story={story8} headline={headline8} />} />
-          <Route exact path="/Stories/story9"
+          <Route exact path="https://candid-seahorse-6d440f.netlify.app/Stories/story9"
             element={<Story story={story9} headline={headline9} />} />
 
         </Routes>
