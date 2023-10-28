@@ -14,16 +14,16 @@ export default function NavbarOthers() {
               <a className="nav-link" href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="http://localhost:3000/Stories">Stories</a>
+              <a className="nav-link" href="/Stories">Stories</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="http://localhost:3000/Quiz">Quiz</a>
+              <a className="nav-link" href="/Quiz">Quiz</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="http://localhost:3000/FAQs">FAQ's</a>
+              <a className="nav-link" href="/FAQs">FAQ's</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="http://localhost:3000/Timer">Timer</a>
+              <a className="nav-link" href="/Timer">Timer</a>
             </li>
           </ul>
         </div>

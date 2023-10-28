@@ -26,10 +26,10 @@ export default function Home() {
           <img id="dp" src={dp} alt="Baby" />
           <b><hr /></b>
           <b><p> <a style={{color: "grey"}} className="nav-link" href="/">Home</a></p></b>
-            <b><p> <a style={{color: "grey"}} className="nav-link" href="http://localhost:3000/Stories">Stories</a></p></b>
-             <b><p> <a style={{color: "grey"}} className="nav-link" href="http://localhost:3000/Quiz">Quiz</a></p></b>
-            <b><p><a style={{color: "grey"}} className="nav-link" href="http://localhost:3000/FAQs">FAQ's</a></p> </b> 
-            <b><p><a style={{color: "grey"}} className="nav-link" href="http://localhost:3000/Timer">Timer</a></p> </b> 
+            <b><p> <a style={{color: "grey"}} className="nav-link" href="/Stories">Stories</a></p></b>
+             <b><p> <a style={{color: "grey"}} className="nav-link" href="/Quiz">Quiz</a></p></b>
+            <b><p><a style={{color: "grey"}} className="nav-link" href="/FAQs">FAQ's</a></p> </b> 
+            <b><p><a style={{color: "grey"}} className="nav-link" href="/Timer">Timer</a></p> </b> 
             <input style={{margin:"2vh 1vw"}} type="checkbox" name="display" id="displayCheck" onClick={() => {
               document.getElementById("displayCheck").checked === true ? setDisplay("inline-block") : setDisplay("none");
             }} />
