@@ -10,6 +10,7 @@ import card6 from "../images/cards/card6.jpg"
 import card7 from "../images/cards/card7.jpg"
 import card8 from "../images/cards/card8.jpg"
 import card9 from "../images/cards/card9.jpeg"
+import card10 from "../images/cards/card10.jpeg"
 
 const headline1="Attire dilemma";
 const headline9="Forever together!";
@@ -20,6 +21,23 @@ const headline5="The first valentine's!";
 const headline4="Longest VC";
 const headline3="College secret";
 const headline2="Pizza at Kanpur";
+const headline10= "First visit to Udupi";
+
+
+const story10= `On the magical day of February 16, 2024, Rajat's heart leapt with joy as he counted down the moments until he would be reunited with his beloved Devanshi after a nearly agonizing separation of nine months. Rajat had recently joined TCS, a long-awaited career move that had kept him waiting for half a year. Yet, amidst the excitement, misunderstandings had cast a shadow over their love—particularly his inadvertent oversight on Devanshi's January birthday and his rush back from Kerala without seeing her in Udupi. Despite these trials, fate had brought them back together as Rajat settled into his new role at the Innovation Lab.
+
+Their reunion was meticulously planned—a weekend carefully chosen as Rajat braced for his new responsibilities and Devanshi prepared to conclude her MBA's first year before a lengthy break in Kanpur. Rajat meticulously organized every detail, with Devanshi's invaluable assistance, ensuring their travel, accommodations, activities, and meals were perfectly orchestrated.
+
+Setting off from work on the evening of February 16th, Rajat embarked on a journey that mirrored the urgency of his longing. From Kazzhakuttam to Varkala Station, and then onwards to Mangaluru Junction without reservations, every mile brought him closer to Devanshi. He kept her updated on his progress, determined not to give her any reason for concern.
+
+Upon arriving in Udupi in the early morning hours, Rajat hurriedly sought out a token of his affection—a box of chocolates, a sweet tradition between them that spoke volumes of his thoughtfulness. Devanshi, ever practical, had arranged a scooty for their convenience, a testament to her resourcefulness and readiness to join him in their adventures.
+
+Their day unfolded like a symphony of love—a shared visit to DMart where Rajat's shopping habits contrasted with Devanshi's deliberate selections, a laughter-filled lakeside chat, and a hotel room adorned by Devanshi for their intimate movie session ;). True to their hearts' rhythm, they cherished each moment, from sunset walks on a tranquil beach to cozy dinners and late-evening movie ;), savoring every second before Devanshi's return to her college hostel.
+
+As dawn broke, Rajat found solace in the scent of Devanshi lingering on their shared bed, a fleeting reminder of their perfect moments together. The morning's delay of Rajat's train offered them a precious gift—a final sunrise movie date ;) before bidding  farewell at the station, surrounded by the serene ambiance that mirrored their deep affection.
+
+For Rajat and Devanshi, this reunion was nothing short of magical—a testament to their enduring love and the indelible memories they created with each tender glance, each shared laugh, and each loving touch. The meet is still considered the best one till now!`;
+
 
 const story1= "In the early afternoon of August 28th, 2019, IMED Pune was abuzz with excitement, all set to welcome the newest crop of students. Meanwhile, the freshers were gearing up for the epic Freshers Party 2019. Among these newcomers, we find Devanshi Bajpai, faced with the age-old dilemma: what to wear to the big event. Living in the Air Force hostel, she found herself in a fashion crisis, as her college mates were nowhere to help her, and her hostel mates had vanished, possibly off on thier Wednesday adventures. In this fashion emergency, Devanshi turned to her most beloved confidante ;) , the one and only Rajat Mishra. She summoned him via video call and presented a chaotic array of wrinkled tops, desperately seeking his sartorial counsel.\nYou see, Devanshi hadn\'t given this event a second thought, and in her eyes, her wardrobe was suddenly devoid of anything remotely suitable. Thus began the epic fashion odyssey that unfolded over the next hour or two. Together, they deliberated on the top, the palazzo pants, the choice of sandals, and even the earrings, and so on. Eventually, after a whirlwind of rejections and fashion debates, they settled on an outfit.\nHours later, when Devanshi graced the event with her presence, Rajat, being the devoted friend he was ;) , eagerly requested photos of her in the chosen attire, all ready to shower her with compliments. Little did he know that a wardrobe consultation with her mother had transpired between their video call and the event, resulting in a completely different ensemble. The photos unveiled this delightful revelation, much to Rajat\'s surprise. Nevertheless, as usual, Devanshi looked stunning in her final choice!\nAnd that\'s the saga of how a confusion for attire found its stylish resolution!";
 
@@ -72,6 +90,9 @@ export default function Cards() {
         </div>
         <div className="col-lg-4 col-md-6 col-sm-12">
         <Card bg={card9} storyNo={9} headline={headline9}/>
+        </div>
+        <div className="col-lg-4 col-md-6 col-sm-12">
+        <Card bg={card10} storyNo={10} headline={headline10}/>
         </div>
       </div>
     </div>
