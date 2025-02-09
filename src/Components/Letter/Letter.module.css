@@ -1,0 +1,125 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.envelope {
+    width: 300px;
+    height: 200px;
+    background: #f8e6e6;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.envelope:hover {
+    transform: scale(1.05);
+}
+
+.envelopeFlap {
+    position: absolute;
+    top: -100px;
+    width: 100%;
+    height: 100px;
+    background: #f1d9d9;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+}
+
+.letter {
+    max-width: 600px;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.letterContent {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.buttons button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    background: #ff6b6b;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.buttons button:hover {
+    transform: scale(1.05);
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+    z-index: 1001;
+}
+
+.closeButton:hover {
+    color: #333;
+}
+
+.loveMeterContainer {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.message {
+    min-height: 24px;
+    margin-bottom: 10px;
+    color: #ff6b6b;
+    font-size: 1.1rem;
+}
+
+.loveMeter {
+    height: 20px;
+    background: #ffebeb;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.loveFill {
+    height: 100%;
+    background: linear-gradient(45deg, #ff6b6b, #ff8585);
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+.glowButton {
+    animation: glow 2s infinite;
+    box-shadow: 0 0 10px #ff6b6b;
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 10px #ff6b6b; }
+    50% { box-shadow: 0 0 20px #ff6b6b; }
+    100% { box-shadow: 0 0 10px #ff6b6b; }
+}
